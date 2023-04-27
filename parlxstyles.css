@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100%;
+    margin: 0;
+    font-size: 16px;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    line-height: 1.8em;
+    color: #666;
+    width: 100%;
+    
+}
+
+.parlx-img{
+    
+    background-image: url(images/image1.png);
+    min-height: 1000px;
+    
+}
+
+.section2-img{
+    background-image: url(images/image2.png);
+    min-height: 400px;
+    
+}
+
+.section3-img{
+    background-image: url(images/image3.png);
+    min-height: 400px;
+    
+}
+
+.parlx-img, .section2-img, .section3-img {
+     position: relative;
+     background-position: center;
+     background-size: cover;
+     background-repeat: no-repeat;
+     background-attachment: fixed;
+}
+
+.imgtext{ 
+    
+    padding-right: 150px;
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    color: black;
+    font-size: 3.4vw;
+    letter-spacing: 3px;
+    text-align: center;
+}
+.textbg{
+    
+    background: #313534;
+    color: #dfd9d9;
+    padding: 20px;
+}
+ section{
+    
+    text-align: center;
+    padding: 50px 80px;
+    
+ }
+
+ h1{
+    margin-bottom: 30px;
+    font-weight: 300;
+    font-size: 30px;
+ }
+ .section1{ 
+    
+    background-color: rgb(238, 233, 233);
+    color: black;
+ }
+ .section2, .section3{
+    background: #3d413f;
+    color: #afabab;
+ }
+
+ .section2-img span{
+    font-weight: 500;
+    letter-spacing: 2px;
+    font-size: 3.4vw;
+    background: rgba(82, 88, 87, 0.418);
+ }
+
+ .section3-img span{
+    font-weight: 500;
+    letter-spacing: 2px;
+    font-size: 3.4vw;
+    background: rgba(82, 88, 87, 0.226);
+ }
